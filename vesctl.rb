@@ -3,7 +3,7 @@ class Vesctl < Formula
   homepage "https://gitlab.com/volterra.io/vesctl"
   url "https://vesio.azureedge.net/releases/vesctl/0.2.15/vesctl.darwin-amd64.gz"
   version "0.2.15"
-  sha256 "eabe53f6ab94abb5e8f1ac8db23981ac390450d95e25fc81c652fb92801b1410"
+  sha256 "d4dedca80d3dcb404dd9d67114bf7d00bd935fe620341c3fbb582c44fa753828"
 def install
 	mv Dir.glob("vesctl-*").first, "vesctl"
 	bin.install "vesctl"
