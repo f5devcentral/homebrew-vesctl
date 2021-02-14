@@ -1,4 +1,4 @@
-class vesctl < Formula
+class Vesctl < Formula
   desc "Create, debug and diagnose Volterra Services configuration."
   homepage "https://gitlab.com/volterra.io/vesctl"
   url "https://vesio.azureedge.net/releases/vesctl/0.2.15/vesctl.darwin-amd64.gz"
