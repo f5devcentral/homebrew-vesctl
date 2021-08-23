@@ -7,5 +7,8 @@ brew tap f5devcentral/vesctl && brew install vesctl
 ```
 
 ## Why would I use this?
-Installation of a cask in homebrew doesn't require a code signing certificate. 
+Please install the official vesctl binary from [here](https://gitlab.com/volterra.io/vesctl).
+If you are unable to install the official vesctl binary, you can use this tap.
+
+
 
