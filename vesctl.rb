@@ -1,9 +1,9 @@
 class Vesctl < Formula
   desc "Create, debug and diagnose Volterra Services configuration"
   homepage "https://gitlab.com/volterra.io/vesctl"
-  url "https://vesio.azureedge.net/releases/vesctl/0.2.23/vesctl.darwin-amd64.gz"
-  version "0.2.23"
-  sha256 "e4daf087024bf03484741296e8621719a1d47fa62e6d07dca2b263bc16b79048"
+  url "https://vesio.azureedge.net/releases/vesctl/0.2.37/vesctl.darwin-amd64.gz"
+  version "0.2.37"
+  sha256 "9ee2c6d2f5c193c54fe01a9ee14704cb9b0f67ac05e2c5f5ddc04f6acd41ddd7"
   def install
     mv "vesctl.darwin-amd64", "vesctl"
     bin.install "vesctl"
